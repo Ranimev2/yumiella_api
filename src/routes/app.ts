@@ -5,11 +5,11 @@ const r = Router();
 //raiz
 r.get("/", (_req, res) => {
   res.send({
-    message: "Jimov API is up and running 🎬🎉🎉",
+    message: "Yumiella API is up and running 🎬🎉🎉",
     status: "success",
     code: 200,
     additional_info: {
-      server: "https://jimov-api.vercel.app/",
+      server: "https://yumiella-api.vercel.app/",
       discord: "https://discord.gg/tyZ39GCX7R",
     },
   });
